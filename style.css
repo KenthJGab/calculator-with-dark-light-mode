@@ -1,0 +1,129 @@
+body {
+	background: #282828;
+}
+
+.calculator-base.light-mode {
+	background: #ffffff;
+	/* Light mode background color */
+}
+/* Override styles for dark mode */
+
+body.dark-mode {
+	background: #282828;
+	/* Dark mode background color */
+	color: #ffffff;
+	/* Dark mode text color */
+}
+
+body.light-mode {
+	color: #ffffff;
+	/* Dark mode text color */
+}
+
+.calculator-base.dark-mode {
+	background: #000000;
+	/* Dark mode background color for calculator base */
+}
+
+.toggle-button {
+	padding-left: 29%;
+	margin-top: -12.5%;
+	float: left;
+	width: 0;
+}
+
+.calculator-base.light-mode .output {
+	color: #000000;
+	/* Black text color in light mode */
+}
+
+.sunLine {
+	margin-top: 15px;
+}
+
+.calculator-base {
+	width: 320px;
+	height: 550px;
+	background: rgb(26, 24, 24);
+	margin: 15px auto;
+	border-radius: 10px;
+	border: 2px solid #21aaff;
+}
+
+.result {
+	height: 120px;
+}
+
+.history {
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.keypad {
+	height: 400px;
+}
+
+.lineBreak {
+	margin: 0 20px;
+	border: 0.5px solid #21aaff;
+	margin-bottom: 15px;
+}
+
+.operator,
+.number,
+.empty {
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-width: 0px;
+	border-radius: 10px;
+	background: rgb(19, 12, 12);
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.operator {
+	color: #21aaff;
+}
+
+.equal-to {
+	border-radius: 50px;
+	background: #21aaff;
+	color: white;
+}
+
+.operator,
+.number {
+	cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+	font-size: 18px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+	outline: 0px;
+}
+
+.number {
+	font-family: 'Lato', sans-serif;
+}
