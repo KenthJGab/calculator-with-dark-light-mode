@@ -44,7 +44,13 @@
                 <button class="number" id="2">2</button>
                 <button class="number" id="3">3</button>
                 <button class="operator" id="+">+</button>
-                <button class="empty" id="empty"></button>
+                <button class="empty" id="empty">
+                <div class="toggle-button" id="theme-toggle" onclick="toggleTheme()">
+                        <i class="fas fa-sun"></i>
+                        <hr class="sunLine">
+                        <i class="fas fa-moon"></i>
+                </div>
+                </button>
                 <button class="number" id="0">0</button>
                 <button class="number" id=".">.</button> <!-- Added the decimal point button -->
                 <button class="operator equal-to" id="=">=</button>
@@ -53,11 +59,7 @@
         </div>
         <!-- end of calculator base -->
     </section>
-    <div class="toggle-button" id="theme-toggle" onclick="toggleTheme()">
-        <i class="fas fa-sun"></i>
-        <hr class="sunLine">
-        <i class="fas fa-moon"></i>
-    </div>
+    
 <script src="./script.js"></script>
 </body>
 </html>

@@ -26,10 +26,10 @@ body.light-mode {
 }
 
 .toggle-button {
-	padding-left: 29%;
-	margin-top: -12.5%;
+	padding-left: 25%;
+	margin-top: 20%;
 	float: left;
-	width: 0;
+	width: 10;
 }
 
 .calculator-base.light-mode .output {
@@ -37,9 +37,8 @@ body.light-mode {
 	/* Black text color in light mode */
 }
 
-.sunLine {
-	margin-top: 15px;
-}
+
+
 
 .calculator-base {
 	width: 320px;
